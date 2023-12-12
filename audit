@@ -1,0 +1,6 @@
+-w /usr/bin/dockerd -p wa
+-w /run/containerd -p wa
+-w /usr/bin/containerd -p wa
+-w /usr/bin/containerd-shim -p wa
+-w /usr/bin/containerd-shim-runc-v1 -p wa
+-w /usr/bin/containerd-shim-runc-v2 -p wa

@@ -4,3 +4,12 @@
 -w /usr/bin/containerd-shim -p wa
 -w /usr/bin/containerd-shim-runc-v1 -p wa
 -w /usr/bin/containerd-shim-runc-v2 -p wa
+
+
+{
+ "icc": false,
+ "log-driver": "syslog",
+ "live-restore": true,
+ "userland-proxy": false,
+ "no-new-privileges": true
+}
